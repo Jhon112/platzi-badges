@@ -1,11 +1,18 @@
 import React from "react";
 
 class BadgeForm extends React.Component {
+
+	formSubmitted = e => {
+		e.preventDefault();
+		console.log("Submitted");
+	}
+
+
   render() {
     return (
       <div>
         <h1>New Attendant</h1>
-        <form action="">
+        <form onSubmit={this.formSubmitted}>
           <div className="form-group">
             <label>First Name</label>
             <input className="form-control" type="text" name="firstName" />
