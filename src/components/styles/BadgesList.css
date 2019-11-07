@@ -1,0 +1,35 @@
+.BadgesList__container {
+    display: flex;
+    width: 100%;
+    max-width: 580px;
+    margin: 0 auto 1rem auto;
+    padding: 0.5rem 1rem;
+    border: 1px solid white;
+    box-shadow: 1px 1px 5px #a19d9d;
+    justify-content: center;
+}
+
+.BadgesList__img {
+    border-radius: 50%;
+    margin-right: 1rem;
+    width: 70px;
+    height: 70px;
+}
+
+.BadgesList__content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1
+}
+
+.BadgesList__twitter-info {
+    display: flex;
+    align-items: center;
+}
+.BadgesList__twitter-logo {
+    max-height: 1rem;
+}
+
+.BadgesList__job-title {
+    margin-bottom: 0;
+}
