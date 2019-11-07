@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Badge from './components/Badge'
+import Badge from "./components/Badge";
+import Navbar from './components/Navbar'
 import './global.css';
 import * as serviceWorker from './serviceWorker';
 
 
 let container = document.getElementById("app")
-ReactDOM.render(<Badge />, container);
+ReactDOM.render(<Navbar />, container);
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
