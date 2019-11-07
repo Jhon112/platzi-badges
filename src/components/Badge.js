@@ -9,7 +9,7 @@ class Badge extends React.Component {
         <div className="Badge__header">
           <img src={confLogo} alt="Logo de la conferencia" />
         </div>
-}
+
         <div className="Badge__section-name">
           <img
             className="Badge__avatar"
