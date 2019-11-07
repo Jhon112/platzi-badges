@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Badge from "../components/Badge";
+import BadgeForm from "../components/BadgeForm";
 import header from "../images/badge-header.svg";
 import "./styles/BadgeNew.css";
 
@@ -23,7 +24,9 @@ class BadgeNew extends React.Component {
                 titleJob="Full stack developer"
               />
             </div>
-            <div className="col-md-6">Form</div>
+            <div className="col-md-6">
+              <BadgeForm />
+            </div>
           </div>
         </div>
       </div>
